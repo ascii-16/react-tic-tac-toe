@@ -10,7 +10,7 @@ function App() {
   const [draw, setDraw] = useState(false);
 
   const handleClick = i => {
-    // Returns if box already contain an element
+    // Returns if box already contain an element or anyone won
     if(values[i] !== null || winner) {
       return;
     }
