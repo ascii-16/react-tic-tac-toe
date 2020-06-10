@@ -1,0 +1,17 @@
+.box {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+
+  &.X {
+    color: darkgreen;
+  }
+
+  &.O {
+    color: darkred;
+  }
+
+  &.X, &.O {
+    background: #ccc;
+  }
+}
