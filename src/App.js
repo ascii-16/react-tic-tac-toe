@@ -101,11 +101,13 @@ function App() {
     <div className="App">
       <h1 className="Page-title">tic tac toe using reactjs</h1>
       <div className="Status">
-        { 
-          winner ? 
-          `Winner: ${winner}` : 
-          draw ? `Draw` : `${nextPlayer}'s turn `
-        }
+        <span>
+          { 
+            winner ? 
+            `${winner} won` : 
+            draw ? `Draw` : `${nextPlayer}'s turn `
+          }
+        </span>
       </div>
       <div className="Box-container">
         <div className="Box-row">
